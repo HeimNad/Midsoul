@@ -26,7 +26,7 @@ jobs:
           cd Midsoul/data
           mkdir lang
           cd lang
-          > zh_cn.json
+          echo '{}' > zh_cn.json
       # 处理数据包.2
       - name: Process Datapack
         run: |
