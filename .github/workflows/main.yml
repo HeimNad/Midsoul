@@ -15,7 +15,6 @@ jobs:
       # 克隆仓库
       - name: Clone Repository
         run: |
-          cd /
           mkdir hfpro
           cd hfpro
           git clone https://github.com/Heart-Fire-Project/Midsoul.git
