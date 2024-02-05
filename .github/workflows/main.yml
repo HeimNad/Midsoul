@@ -22,8 +22,8 @@ jobs:
       # 处理数据包.1
       - name: Pre Progress Datapack
         run: |
-          cd Midsoul
-          cd data
+          cd ${{ github.workspace }}/hfpro
+          cd Midsoul/data
           mkdir lang && cd lang
           touch zh_cn.json
       # 处理数据包.2
